@@ -17,6 +17,7 @@ public class Main {
         audioStream = new Stream();
         server = new SOCThread(9000, audioStream);
         new Thread(server).start();
+        //Przemek pedał
 
         }
 
