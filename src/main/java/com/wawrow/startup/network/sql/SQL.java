@@ -21,6 +21,7 @@ public class SQL {
             Class.forName (sterownik);
             conn = DriverManager.getConnection (url, userName, password);
             System.out.println ("Database connection established");
+            //Commit Test
             Statement statement = conn.createStatement();
             statement.executeUpdate(query);
 
